@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+}
+.container{
+    background-color: skyblue;
+    height: 80vh;
+    width: 100vw;
+}
+.heading{
+    text-align: center;
+}
+p{
+    padding-top: 5%;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    text-shadow: 0px 0px 2px black;
+}
+.sun{
+    position: absolute;
+    right: 20%;
+    top: 10%;
+}
+.cow{
+    position: absolute;
+    bottom: 19%;
+    left: 25%;
+    z-index: 2;
+}
+.sheep{
+    position: fixed;
+    bottom: 2%;
+    left: 10%;
+    z-index: 2;
+}
+.tree{
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
+    z-index: 2;
+}
+.grass{
+    position: absolute;
+    bottom: 0%;
+    background-color: green;
+    height: 20vh;
+    width: 100vw;
+}
